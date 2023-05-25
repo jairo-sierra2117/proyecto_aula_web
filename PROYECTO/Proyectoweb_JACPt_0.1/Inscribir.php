@@ -207,7 +207,7 @@ https://templatemo.com/tm-573-eduwell
 
             <div class="col-12">
 			<label for="Apellido" class="form-label">Apellido: </label>
-			<input type="text" class="form-control" id="Apellido" placeholder="" value="" required="">
+			<input type="text" class="form-control" id="Apellido" placeholder="" value="" required="" name="apellido">
       <div class="invalid-feedback">
         Campo requerido.
       </div>
@@ -215,7 +215,7 @@ https://templatemo.com/tm-573-eduwell
 
             <div class="col-12">
 			<label for="email" class="form-label">Correo: </label>
-			<input type="email" class="form-control" id="email" placeholder=""  value="" required="">
+			<input type="email" class="form-control" id="email" placeholder=""  value="" required="" name="correo">
       <div class="invalid-feedback">
         Campo requerido.
       </div>
@@ -223,7 +223,7 @@ https://templatemo.com/tm-573-eduwell
 
             <div class="col-12">
 			<label for="telefono" class="form-label">Telefono: </label>
-			<input type="tel" class="form-control" id="telefono"  placeholder=""  value="" required="">
+			<input type="tel" class="form-control" id="telefono"  placeholder=""  value="" required="" name="telefono">
       <div class="invalid-feedback">
         Campo requerido.
       </div>
@@ -231,7 +231,7 @@ https://templatemo.com/tm-573-eduwell
 
 		<div class="col-12">
 			<label for="Evento" class="form-label">Evento: </label>
-			<select class="form-select" id="Evento" required="">
+			<select class="form-select" id="Evento" required="" name="evento">
 			  <option value="">Seleccione un evento</option>
 			  <option>Ferias de salud</option>
 			  <option>Actividades deportivas</option>
@@ -241,7 +241,7 @@ https://templatemo.com/tm-573-eduwell
     
       <div class="col-12">
         <label for="Comentarios" class="form-label">Comentarios: </label>
-        <textarea id="Comentarios" type="text" class="form-control" rows="5" cols="30"></textarea></div><div class="resume-section-content"><p></p></div>  
+        <textarea id="Comentarios" type="text" class="form-control" rows="5" cols="30" name="comentarios"></textarea></div><div class="resume-section-content"><p></p></div>  
             </div>
             <button value="Enviar" type="submit" class="btn btn-primary btn-lg">Enviar</button>
             <button value="Limpiar" type="reset" class="btn btn-primary btn-lg">Limpiar</button>
