@@ -199,7 +199,7 @@ https://templatemo.com/tm-573-eduwell
           <div class="row g-3">
             <div class="col-12">
 			<label for="Nombre" class="form-label">Nombre: </label>
-			<input type="text" class="form-control" id="Nombre"placeholder="" value="" required="">
+			<input type="text" class="form-control" id="Nombre"placeholder="" value="" required="" name="nombre">
       <div class="invalid-feedback">
         Campo requerido.
       </div>
