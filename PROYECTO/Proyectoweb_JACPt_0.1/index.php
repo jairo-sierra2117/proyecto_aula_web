@@ -1,74 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>JAC Patio Centro</title>
+  <title>JAC Patio Centro</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/lightbox.css">
-<!--
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-eduwell-style.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/lightbox.css">
+  <!--
 
 TemplateMo 573 EduWell
 
 https://templatemo.com/tm-573-eduwell
 
 -->
-  </head>
+</head>
 
 <body>
 
 
   <!-- ***** Header Area Start ***** -->
   <header class="header-area header-sticky">
-      <div class="container">
-          <div class="row">
-              <div class="col-12">
-                  <nav class="main-nav">
-                      <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
-                        <img src="assets/images/Logo_0122.png"  height="80px" alt="JAC ">                      </a>
-                      <!-- ***** Logo End ***** -->
-                      <!-- ***** Menu Start ***** -->
-                      <ul class="nav">
-                          <li><a href="LOgin_Parcial/Login-y-registro-con-html-css-js-main/index.php" class="bg-gradient bg-opacity-25">Login</a></li>
-                          <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
-                          <li class="scroll-to-section"><a href="#services">Eventos</a></li>
-                          <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
-                         
-                          <li class="has-sub">
-                              <a href="javascript:void(0)">Pages</a>
-                              <ul class="sub-menu">
-                                  <li><a href="#">Sobre nosotros</a></li>
-                                  <li><a href="#">Nuestro</a></li>
-                                  <li><a href="contact-us.html">Contactanos</a></li>
-                                  <li><a href="Inscribir.html">Inscribirme en eventos</a></li>
-                              </ul>
-                          </li>
-                          <li class="scroll-to-section"><a href="#testimonials">Noticias</a></li> 
-                          <li class="scroll-to-section"><a href="#contact-section">PQRS</a></li> 
-                      </ul>        
-                      <a class='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
-                      <!-- ***** Menu End ***** -->
-                  </nav>
-              </div>
-          </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="assets/images/Logo_0122.png" height="80px" alt="JAC "> </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="LOgin_Parcial/Login-y-registro-con-html-css-js-main/index.php" class="bg-gradient bg-opacity-25">Login</a></li>
+              <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+              <li class="scroll-to-section"><a href="#services">Eventos</a></li>
+              <li class="scroll-to-section"><a href="#courses">Cursos</a></li>
+
+              <li class="has-sub">
+                <a href="javascript:void(0)">Pages</a>
+                <ul class="sub-menu">
+                  <li><a href="#">Sobre nosotros</a></li>
+                  <li><a href="#">Nuestro</a></li>
+                  <li><a href="contact-us.php">Contactanos</a></li>
+                  <li><a href="Inscribir.php">Inscribirme en eventos</a></li>
+                </ul>
+              </li>
+              <li class="scroll-to-section"><a href="#testimonials">Noticias</a></li>
+              <li class="scroll-to-section"><a href="#contact-section">PQRS</a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
       </div>
+    </div>
   </header>
   <!-- ***** Header Area End ***** -->
 
@@ -101,7 +101,7 @@ https://templatemo.com/tm-573-eduwell
         <div class="col-lg-12">
           <div class="section-heading">
             <h6>MI BARRIO</h6>
-            <h4>PROXIMOS  <em>EVENTOS</em></h4>
+            <h4>PROXIMOS <em>EVENTOS</em></h4>
           </div>
         </div>
         <div class="col-lg-12">
@@ -248,7 +248,9 @@ https://templatemo.com/tm-573-eduwell
                       <div>
                         <div class="left-image">
                           <img src="assets/images/courses-01.jpg" alt="">
-                          <div class="price"><h6>$</h6></div>
+                          <div class="price">
+                            <h6>$</h6>
+                          </div>
                         </div>
                         <div class="right-content">
                           <h4>Informática básica</h4>
@@ -266,7 +268,9 @@ https://templatemo.com/tm-573-eduwell
                       <div>
                         <div class="left-image">
                           <img src="assets/images/courses-02.jpg" alt="">
-                          <div class="price"><h6>$</h6></div>
+                          <div class="price">
+                            <h6>$</h6>
+                          </div>
                         </div>
                         <div class="right-content">
                           <h4>Artes y manualidades</h4>
@@ -284,7 +288,9 @@ https://templatemo.com/tm-573-eduwell
                       <div>
                         <div class="left-image">
                           <img src="assets/images/courses-03.jpg" alt="">
-                          <div class="price"><h6>$</h6></div>
+                          <div class="price">
+                            <h6>$</h6>
+                          </div>
                         </div>
                         <div class="right-content">
                           <h4>Cocina</h4>
@@ -302,7 +308,9 @@ https://templatemo.com/tm-573-eduwell
                       <div>
                         <div class="left-image">
                           <img src="assets/images/courses-04.jpg" alt="">
-                          <div class="price"><h6>$</h6></div>
+                          <div class="price">
+                            <h6>$</h6>
+                          </div>
                         </div>
                         <div class="right-content">
                           <h4>Desarrollo personal</h4>
@@ -315,8 +323,8 @@ https://templatemo.com/tm-573-eduwell
                           </div>
                         </div>
                       </div>
-                      </li>
-                    </ul>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -353,62 +361,67 @@ https://templatemo.com/tm-573-eduwell
           <div class="section-heading">
             <h6>Noticias</h6>
             <h4>Mantente <em>informado</em></h4>
-            
-            <div class="resume-section-content"><p></p></div>
-            <div class="resume-section-content"><p></p></div>
+
+            <div class="resume-section-content">
+              <p></p>
+            </div>
+            <div class="resume-section-content">
+              <p></p>
+            </div>
             <div class="main-button-gradient">
-              <a href="Noticia.html">Agregar Noticia</a></div>
+              <a href="Noticia.html">Agregar Noticia</a>
+            </div>
           </div>
         </div>
         <div class="col-lg-12">
           <div class="owl-testimonials owl-carousel" style="position: relative; z-index: 5;">
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
             <div class="item">
               <p>“El pasado fin de semana, la junta de acción comunal del barrio Patio Centro organizó una jornada de limpieza en el parque principal de la zona. Los vecinos se unieron en una actividad llena de entusiasmo y compromiso para dejar el parque impecable y libre de basura.”</p>
-                <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
-                <span>Presidente de la Junta</span>
-                <img src="assets/images/quote.png" alt="">
+              <h4>YESMITH ADRIANA ROSAS CAICEDO</h4>
+              <span>Presidente de la Junta</span>
+              <img src="assets/images/quote.png" alt="">
             </div>
           </div>
         </div>
@@ -421,9 +434,10 @@ https://templatemo.com/tm-573-eduwell
       <div class="row">
         <div class="col-lg-8">
           <div id="map">
-          
+
             <!-- You just need to go to Google Maps for your own map point, and copy the embed code from Share -> Embed a map section -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63241.41883039529!2d-72.54559272113589!3d7.833282582920195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66460e9c4fdde7%3A0x30c35f7f63a6f00!2sLos%20Patios%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1681968071917!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63241.41883039529!2d-72.54559272113589!3d7.833282582920195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66460e9c4fdde7%3A0x30c35f7f63a6f00!2sLos%20Patios%2C%20Norte%20de%20Santander!5e0!3m2!1ses!2sco!4v1681968071917!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="row">
               <div class="col-lg-4 offset-lg-1">
                 <div class="contact-info">
                   <div class="icon">
@@ -488,10 +502,11 @@ https://templatemo.com/tm-573-eduwell
           </ul>
         </div>
         <div class="col-lg-12">
-          <p class="copyright">Copyright © 2023 SGPQRS., Ltd. Todos los derechos reservados. 
-          
-          <br>Diseño: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
-          <br>Distribución: <a rel="sponsored" href="https://themewagon.com" target="_blank">ThemeWagon</a></p>
+          <p class="copyright">Copyright © 2023 SGPQRS., Ltd. Todos los derechos reservados.
+
+            <br>Diseño: <a rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a>
+            <br>Distribución: <a rel="sponsored" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          </p>
         </div>
       </div>
     </div>
@@ -499,62 +514,63 @@ https://templatemo.com/tm-573-eduwell
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
+  <script src="assets/js/isotope.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/lightbox.js"></script>
+  <script src="assets/js/tabs.js"></script>
+  <script src="assets/js/video.js"></script>
+  <script src="assets/js/slick-slider.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    //according to loftblog tut
+    $('.nav li:first').addClass('active');
 
-        var showSection = function showSection(section, isAnimate) {
+    var showSection = function showSection(section, isAnimate) {
+      var
+        direction = section.replace(/#/, ''),
+        reqSection = $('.section').filter('[data-section="' + direction + '"]'),
+        reqSectionPos = reqSection.offset().top - 0;
+
+      if (isAnimate) {
+        $('body, html').animate({
+            scrollTop: reqSectionPos
+          },
+          800);
+      } else {
+        $('body, html').scrollTop(reqSectionPos);
+      }
+
+    };
+
+    var checkSection = function checkSection() {
+      $('.section').each(function() {
+        var
+          $this = $(this),
+          topEdge = $this.offset().top - 80,
+          bottomEdge = topEdge + $this.height(),
+          wScroll = $(window).scrollTop();
+        if (topEdge < wScroll && bottomEdge > wScroll) {
           var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
+            currentId = $this.data('section'),
+            reqLink = $('a').filter('[href*=\\#' + currentId + ']');
+          reqLink.closest('li').addClass('active').
+          siblings().removeClass('active');
+        }
+      });
+    };
 
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
+    $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function(e) {
+      e.preventDefault();
+      showSection($(this).attr('href'), true);
+    });
 
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .responsive-menu, .scroll-to-section').on('click', 'a', function (e) {
-          e.preventDefault();
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
+    $(window).scroll(function() {
+      checkSection();
+    });
+  </script>
 </body>
 
 </html>
