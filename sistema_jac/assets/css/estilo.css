@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #ededed;
+	margin: calc(25% + 100px);
+	margin-top: 130px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: rgb(20, 27, 0);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+textarea {
+    width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 16px
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.ok {
+	color: green;
+}
+
+.bad {
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="submit"] {
+	padding: 5px;
+	font-size: 14px;
+}
+
+#formulario_modificar {
+	margin-top: 20px;
+}
+
+nav {
+	background-color: #333;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	color: #f00;
+	text-decoration: none;
+	margin-right: 10px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #f00;;
+}
+
+.logo {
+	max-height: 40px;
+}

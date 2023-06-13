@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: century gothic;
+	text-align: center;
+}
+
+form {
+	padding: 50px 20px;
+	background-color: #df8962da;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: #444
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 16px
+}
+
+input[type='submit']{
+	background-color: rgba(11, 15, 233, 0.918);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+input[type='reset']{
+	background-color: rgba(11, 15, 233, 0.918);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+button[type='submit']{
+	background-color: rgba(11, 15, 233, 0.918);
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+textarea {
+    width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	margin-bottom: 4px;
+	font-size: 16px
+}
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.ok {
+	color: green;
+}
+
+.bad {
+	color: red;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+form {
+	margin-top: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="submit"], input[type="reset"]  {
+	padding: 5px;
+	font-size: 14px;
+}
+
+#formulario_modificar {
+	margin-top: 20px;
+}
+
