@@ -101,7 +101,7 @@ https://templatemo.com/tm-573-eduwell
           </div>
         </div>
         <div class="col-lg-4">
-          <form id="contact" action="https://formsubmit.co/jairosierra.jesb@gmail.com" method="POST">
+          <form id="contact" action="https://formsubmit.co/bf319aa5b3aa14a71179cc711702bdb8" method="POST">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
@@ -129,6 +129,8 @@ https://templatemo.com/tm-573-eduwell
                 <fieldset>
                   <button type="submit" id="form-submit" class="main-gradient-button">Enviar</button>
                 </fieldset>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://localhost:3000/PROYECTO/Proyectoweb_JACPt_0.1/thanks-you.php">
               </div>
             </div>
           </form>
@@ -211,8 +213,21 @@ https://templatemo.com/tm-573-eduwell
     $(window).scroll(function() {
       checkSection();
     });
-  </script>
 
+    //animacion boton de formulario
+    document.getElementById("form-submit").addEventListener("click", function() {
+      this.innerHTML = "enviando";
+      this.classList.add("sending");
+
+      setTimeout(function() {}, 2000); // Ajusta el tiempo de espera según tus necesidades
+      // Precargar la siguiente página
+      var nextUrl = "thanks-pag.php"; // Reemplaza con la URL de la siguiente página
+      var nextPage = document.createElement("iframe");
+      nextPage.src = nextUrl;
+      nextPage.classList.add("hidden");
+      document.body.appendChild(nextPage);
+    });
+  </script>
 </body>
 
 </html>

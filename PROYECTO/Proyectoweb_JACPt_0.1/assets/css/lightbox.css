@@ -201,3 +201,47 @@ html.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+
+#form-submit {
+  position: relative;
+  overflow: hidden;
+}
+
+#form-submit::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 0.25em);
+  transform: translate(-140%, -85%);
+  width: 1em;
+  height: 1em;
+  font-size: 1.7em;
+  text-align: center;
+  animation: loading 1s steps(7) infinite;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@keyframes loading {
+  0% {
+    content: ".";
+  }
+  25% {
+    content: "..";
+  }
+  50% {
+    content: "...";
+  }
+  75% {
+    content: "";
+  }
+}
+
+#form-submit.sending::before {
+  opacity: 1;
+}
+
+#form-submit.sending span {
+  opacity: 0;
+}
